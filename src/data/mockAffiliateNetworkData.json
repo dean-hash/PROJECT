@@ -1,0 +1,48 @@
+[
+  {
+    "name": "ShareASale",
+    "url": "https://www.shareasale.com/info/affiliate/",
+    "fields": [
+      { "name": "firstName", "type": "text" },
+      { "name": "lastName", "type": "text" },
+      { "name": "email", "type": "email" },
+      { "name": "website", "type": "url" },
+      { "name": "companyName", "type": "text" },
+      { "name": "taxId", "type": "text" },
+      { "name": "paymentMethod", "type": "select" }
+    ]
+  },
+  {
+    "name": "CJ Affiliate",
+    "url": "https://signup.cj.com/member/signup/publisher/",
+    "fields": [
+      { "name": "firstName", "type": "text" },
+      { "name": "lastName", "type": "text" },
+      { "name": "email", "type": "email" },
+      { "name": "website", "type": "url" },
+      { "name": "companyName", "type": "text" },
+      { "name": "taxIdType", "type": "select" },
+      { "name": "taxIdNumber", "type": "text" },
+      { "name": "address", "type": "text" },
+      { "name": "city", "type": "text" },
+      { "name": "state", "type": "select" },
+      { "name": "zipCode", "type": "text" },
+      { "name": "country", "type": "select" },
+      { "name": "phoneNumber", "type": "tel" }
+    ]
+  },
+  {
+    "name": "Amazon Associates",
+    "url": "https://affiliate-program.amazon.com/",
+    "fields": [
+      { "name": "fullName", "type": "text" },
+      { "name": "email", "type": "email" },
+      { "name": "password", "type": "password" },
+      { "name": "website", "type": "url" },
+      { "name": "mobileAppStore", "type": "select" },
+      { "name": "mobileAppName", "type": "text" },
+      { "name": "topics", "type": "multiselect" },
+      { "name": "trafficSources", "type": "multiselect" }
+    ]
+  }
+]
