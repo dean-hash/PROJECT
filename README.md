@@ -96,3 +96,42 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Project Documentation
+
+### CI Status Badge
+
+![CI](https://github.com/dean-hash/PROJECT/actions/workflows/ci.yml/badge.svg)
+
+### Overview
+
+An intelligent platform for automating affiliate marketing processes and optimizing value-based program matching.
+
+### Features
+
+- Automated affiliate program application process
+- Market demand identification
+- Value-based program matching
+- Unified Intelligence Field (UIF) integration
+- Secure data handling and storage
+
+### Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+### Tech Stack
+
+- React with TypeScript
+- Vite for build tooling
+- Redux for state management
+- Puppeteer & Selenium for automation
+- Sentry for error tracking
